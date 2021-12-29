@@ -1,0 +1,95 @@
+<html >
+<head> 
+    <title>Form</title>
+     <style>
+         body{
+             background-color: rgb(207, 191, 223);
+         }
+         #form{
+            left : 50%;
+            top : 50%;
+            position  : absolute;
+            transform : translate(-50%, -50%);
+            border: solid black 4px;
+         }
+     </style>
+</head>
+<body>
+    <form id="form">    
+    <h1>Fill the Registration Form</h1>
+
+    Full name : 
+    <input type="text" placeholder="Your name">
+    <br>
+    <br>
+     
+
+    Email :
+
+    <input type="email" placeholder="Email">
+
+    <br>
+    <br>
+    Telephone :
+    <input type="tel" maxlength="10">
+    <br>
+    <br>
+    File:
+
+    <input type="file">
+
+    <br>
+    <br>
+    Date Of Birth:
+
+    <input type="date">
+
+     
+
+    <br>
+    <br>
+     
+     
+     
+    Male:
+    <input type="radio" name="gender">
+    Female:
+    <input type="radio" name="gender">
+    Others:
+    <input type="radio" name="gender">
+     <h2>Select the Courses</h2>
+        <input type="checkbox">
+        <label for="full stack">Full Stack Web development.</label><br>
+        <input type="checkbox" >
+        <label for="Android development">Android development</label><br>
+        <input type="checkbox"  >
+        <label for="Data science">Data science</label>
+    
+
+    <br>
+    <br>
+    <h2>Select the Batch</h2>
+    <select>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>Mar</option>
+        <option>Apr</option>
+        <option>May</option>
+        <option>June</option>
+    </select>
+
+    <br>
+    <br>
+     Why you want to join this course?
+    <br>
+    <textarea cols="30" rows="5"></textarea>
+
+    <br>
+    <br>
+    
+    <input type="submit">
+
+</form>
+     
+</body>
+</html>
